@@ -8,17 +8,31 @@ public class RectangleTest {
     @Test
     void checkForArea20ForLength4andWidth5() {
 
-        Rectangle rectangle = new Rectangle(4,5);
+        Rectangle rectangle = new Rectangle(4, 5);
 
-        Assertions.assertEquals(20, rectangle.area());
+        float area = rectangle.area();
+
+        Assertions.assertEquals(20, area);
 
     }
 
     @Test
     void checkForArea16ForLength4AndWidth4() {
 
-        Rectangle rectangle = new Rectangle(4,4);
+        Rectangle rectangle = new Rectangle(4, 4);
 
-        Assertions.assertEquals(16, rectangle.area());
+        float area = rectangle.area();
+
+        Assertions.assertEquals(16, area);
+    }
+
+    @Test
+    void checkForAreaWithFloatForLengthAndWidth() {
+
+        Rectangle rectangle = new Rectangle(4.5f, 4.5f);
+
+        float area = rectangle.area();
+
+        Assertions.assertEquals(20.25f, area);
     }
 }
