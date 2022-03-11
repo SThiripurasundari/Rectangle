@@ -1,18 +1,11 @@
 package Square;
 
-public class Square {
+import Rectangle.Rectangle;
 
-    private final float side;
+public class Square extends Rectangle {
 
     public Square(float side) {
-          this.side = side;
+        super(side, side);
     }
 
-    public float area() {
-         return side * side;
-    }
-
-    public float perimeter() {
-         return 4 * side;
-    }
 }

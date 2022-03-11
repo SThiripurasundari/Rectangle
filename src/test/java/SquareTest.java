@@ -1,5 +1,7 @@
+import Rectangle.Rectangle;
 import Square.Square;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SquareTest {
@@ -13,6 +15,7 @@ public class SquareTest {
         assertEquals(16, area);
 
     }
+
     @Test
     void checkForArea81ForSide9() {
 
