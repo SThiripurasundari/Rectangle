@@ -2,6 +2,8 @@ import Rectangle.Rectangle;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class RectangleTest {
 
@@ -12,7 +14,7 @@ public class RectangleTest {
 
         float area = rectangle.area();
 
-        Assertions.assertEquals(20, area);
+        assertEquals(20, area);
 
     }
 
@@ -23,7 +25,7 @@ public class RectangleTest {
 
         float area = rectangle.area();
 
-        Assertions.assertEquals(16, area);
+        assertEquals(16, area);
     }
 
     @Test
@@ -33,7 +35,7 @@ public class RectangleTest {
 
         float area = rectangle.area();
 
-        Assertions.assertEquals(20.25f, area);
+        assertEquals(20.25f, area);
     }
 
     @Test
@@ -43,7 +45,7 @@ public class RectangleTest {
 
         float perimeter = rectangle.perimeter();
 
-        Assertions.assertEquals(18, perimeter);
+        assertEquals(18, perimeter);
 
 
     }
@@ -53,9 +55,20 @@ public class RectangleTest {
 
         Rectangle rectangle = new Rectangle(2.0f, 4.0f);
 
-         float perimeter = rectangle.perimeter();
+        float perimeter = rectangle.perimeter();
 
-         Assertions.assertEquals(12.0,perimeter);
+        assertEquals(12.0, perimeter);
+
+    }
+
+    @Test
+    void checkForPerimeter28ForLength8AndWidth6() {
+
+        Rectangle rectangle = new Rectangle(8, 6);
+
+        float perimeter = rectangle.perimeter();
+
+        assertEquals(28, perimeter);
 
     }
 }
