@@ -5,13 +5,15 @@ public class Square {
     private final float side;
 
     public Square(float side) {
-
-        this.side = side;
+          this.side = side;
     }
 
     public float area() {
+         return side * side;
 
-        return side * side;
+    }
 
+    public float perimeter() {
+         return 4 * side;
     }
 }
