@@ -10,7 +10,6 @@ public class Square {
 
     public float area() {
          return side * side;
-
     }
 
     public float perimeter() {

@@ -15,6 +15,17 @@ public class SquareTest {
         assertEquals(16, area);
 
     }
+    @Test
+    void checkForArea81ForSide9() {
+
+        Square square = new Square(9);
+
+        float area = square.area();
+
+        assertEquals(81, area);
+
+    }
+
 
     @Test
     void checkForArea25point0ForSide5point0() {
