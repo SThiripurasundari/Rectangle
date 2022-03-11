@@ -15,4 +15,10 @@ public class Rectangle {
       return length*width;
 
     }
+
+    public float perimeter() {
+
+        return 2*(length+width);
+
+    }
 }

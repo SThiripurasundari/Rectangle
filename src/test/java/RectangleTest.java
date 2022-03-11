@@ -35,4 +35,27 @@ public class RectangleTest {
 
         Assertions.assertEquals(20.25f, area);
     }
+
+    @Test
+    void checkForPerimeter18ForLength4AndWidth5() {
+
+        Rectangle rectangle = new Rectangle(4, 5);
+
+        float perimeter = rectangle.perimeter();
+
+        Assertions.assertEquals(18, perimeter);
+
+
+    }
+
+    @Test
+    void checkForPerimeterFloat12point0ForLength2point0Andwidth4point0() {
+
+        Rectangle rectangle = new Rectangle(2.0f, 4.0f);
+
+         float perimeter = rectangle.perimeter();
+
+         Assertions.assertEquals(12.0,perimeter);
+
+    }
 }
