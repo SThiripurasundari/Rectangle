@@ -30,6 +30,10 @@ public class Rectangle {
 
     }*/
 
+    public static void main(String[] args) {
+
+    }
+
     @Override
     public boolean equals(Object o) {
         System.out.println("In Equals ");
