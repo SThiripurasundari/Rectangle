@@ -1,11 +1,11 @@
 import Rectangle.Rectangle;
 import org.junit.jupiter.api.Test;
+
 import static Rectangle.Rectangle.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class RectangleTest {
-
     @Test
     void checkForArea20ForLength4andWidth5() {
 
