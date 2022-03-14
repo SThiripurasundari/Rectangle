@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RectangleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-10T09:44:22" hostname="Thiripurasundaris-MacBook-Pro.local" time="0.025">
+<testsuite name="RectangleTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-03-14T01:10:17" hostname="Thiripurasundaris-MacBook-Pro.local" time="0.036">
   <properties/>
-  <testcase name="checkForArea16ForLength4AndWidth4()" classname="RectangleTest" time="0.023"/>
-  <testcase name="checkForArea20ForLength4andWidth5()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForAreaWithFloatForLengthAndWidth()" classname="RectangleTest" time="0.017"/>
+  <testcase name="checkForArea16ForLength4AndWidth4()" classname="RectangleTest" time="0.0"/>
+  <testcase name="CheckForPerimeter32point0ForSide8point0()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForPerimeterFloat12point0ForLength2point0Andwidth4point0()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForArea20ForLength4andWidth5()" classname="RectangleTest" time="0.0"/>
+  <testcase name="CheckForPerimeter100ForSide10()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForArea33point0625For5point75()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForArea81ForSide9()" classname="RectangleTest" time="0.0"/>
+  <testcase name="checkForPerimeter28ForLength8AndWidth6()" classname="RectangleTest" time="0.001"/>
+  <testcase name="CheckForPerimeter28ForSide4()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForPerimeter18ForLength4AndWidth5()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForArea16ForSide4()" classname="RectangleTest" time="0.001"/>
+  <testcase name="checkForArea25point0ForSide5point0()" classname="RectangleTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
