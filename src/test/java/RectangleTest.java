@@ -2,7 +2,7 @@ import Rectangle.Rectangle;
 import org.junit.jupiter.api.Test;
 
 import static Rectangle.Rectangle.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class RectangleTest {
@@ -146,6 +146,7 @@ public class RectangleTest {
         assertEquals(32.0, perimeter);
 
     }
+
 
 
 }
