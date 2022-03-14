@@ -1,5 +1,6 @@
 import Rectangle.Rectangle;
 import org.junit.jupiter.api.Test;
+import static Rectangle.Rectangle.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -8,7 +9,7 @@ public class RectangleTest {
     @Test
     void checkForArea20ForLength4andWidth5() {
 
-        Rectangle rectangle = Rectangle.rectangle(4, 5);
+        Rectangle rectangle = rectangle(4, 5);
 
         float area = rectangle.area();
 
@@ -19,7 +20,7 @@ public class RectangleTest {
     @Test
     void checkForArea16ForLength4AndWidth4() {
 
-        Rectangle rectangle = Rectangle.rectangle(4, 4);
+        Rectangle rectangle = rectangle(4, 4);
 
         float area = rectangle.area();
 
@@ -29,7 +30,7 @@ public class RectangleTest {
     @Test
     void checkForAreaWithFloatForLengthAndWidth() {
 
-        Rectangle rectangle = Rectangle.rectangle(4.5f, 4.5f);
+        Rectangle rectangle = rectangle(4.5f, 4.5f);
 
         float area = rectangle.area();
 
@@ -39,7 +40,7 @@ public class RectangleTest {
     @Test
     void checkForPerimeter18ForLength4AndWidth5() {
 
-        Rectangle rectangle = Rectangle.rectangle(4, 5);
+        Rectangle rectangle = rectangle(4, 5);
 
         float perimeter = rectangle.perimeter();
 
@@ -51,7 +52,7 @@ public class RectangleTest {
     @Test
     void checkForPerimeterFloat12point0ForLength2point0Andwidth4point0() {
 
-        Rectangle rectangle = Rectangle.rectangle(2.0f, 4.0f);
+        Rectangle rectangle = rectangle(2.0f, 4.0f);
 
         float perimeter = rectangle.perimeter();
 
@@ -62,7 +63,7 @@ public class RectangleTest {
     @Test
     void checkForPerimeter28ForLength8AndWidth6() {
 
-        Rectangle rectangle = Rectangle.rectangle(8, 6);
+        Rectangle rectangle = rectangle(8, 6);
 
         float perimeter = rectangle.perimeter();
 
@@ -73,7 +74,7 @@ public class RectangleTest {
     @Test
     void checkForArea16ForSide4() {
 
-        Rectangle square = Rectangle.square(4);
+        Rectangle square = square(4);
 
         float area = square.area();
 
@@ -84,7 +85,7 @@ public class RectangleTest {
     @Test
     void checkForArea81ForSide9() {
 
-        Rectangle square = Rectangle.square(9);
+        Rectangle square = square(9);
 
         float area = square.area();
 
@@ -92,11 +93,10 @@ public class RectangleTest {
 
     }
 
-
     @Test
     void checkForArea25point0ForSide5point0() {
 
-        Rectangle square = Rectangle.square(5.0f);
+        Rectangle square = square(5.0f);
 
         float area = square.area();
 
@@ -106,7 +106,7 @@ public class RectangleTest {
 
     @Test
     void checkForArea33point0625For5point75() {
-        Rectangle square = Rectangle.square(5.75f);
+        Rectangle square = square(5.75f);
 
         float area = square.area();
 
@@ -117,7 +117,7 @@ public class RectangleTest {
     @Test
     void CheckForPerimeter28ForSide4() {
 
-        Rectangle square = Rectangle.square(7);
+        Rectangle square = square(7);
 
         float perimeter = square.perimeter();
 
@@ -128,7 +128,7 @@ public class RectangleTest {
     @Test
     void CheckForPerimeter100ForSide10() {
 
-        Rectangle square = Rectangle.square(10);
+        Rectangle square = square(10);
 
         float perimeter = square.perimeter();
 
@@ -139,7 +139,7 @@ public class RectangleTest {
     @Test
     void CheckForPerimeter32point0ForSide8point0() {
 
-        Rectangle square = Rectangle.square(8.0f);
+        Rectangle square = square(8.0f);
 
         float perimeter = square.perimeter();
 

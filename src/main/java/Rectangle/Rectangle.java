@@ -11,18 +11,22 @@ public class Rectangle {
     }
 
     public static Rectangle square(float side) {
+
         return new Rectangle(side, side);
     }
 
     public static Rectangle rectangle(float length, float width) {
+
         return new Rectangle(length, width);
     }
 
     public float area() {
+
         return length * width;
     }
 
     public float perimeter() {
+
         return 2 * (length + width);
     }
 }
